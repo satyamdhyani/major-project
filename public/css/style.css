@@ -1,0 +1,204 @@
+ body{
+    font-family: sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ } 
+
+
+ .container{
+    flex:1;
+ }
+
+
+/* header */
+
+.navbar{
+    height:5rem;
+    background-color: white;
+
+}
+
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+
+
+
+
+
+/*  footer  */
+
+.footer{
+    text-align: center;
+    background-color: #ebebeb ;
+    
+
+}
+
+.links a{
+    text-decoration: none;
+    color:#222222;
+}
+
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+
+/*cards*/
+
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+
+}
+
+.card-img-top{
+    border-radius: 1.5rem !important;
+    opacity: normal !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+.add-btn{
+    color: #fe424d !important;
+
+}
+
+
+
+
+
+/* show image */
+
+.show-image{
+    height:30vh;
+    width:40vh !important;
+}
+
+.edit-btn{
+    height: 40px !important;
+    width:60px !important;
+    margin-right: 5px !important;
+
+}
+
+.del-edit-btn{
+    display: flex !important;
+    
+}
+
+
+
+
+
+
+
+
+/* edit listing*/
+
+.country{
+    margin-left:50px;
+}
+
+
+
+
+
+.form-color label{
+   margin-top: 20px;
+   margin-left:20px;
+}
+
+
+.form-color input{
+    margin-left:20px;
+
+}
+
+.form-color textarea{
+    margin-left:20px;
+
+}
+
+
+.review-card{
+    border : 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
