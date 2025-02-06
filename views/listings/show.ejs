@@ -56,10 +56,7 @@
         <h3>Leave a Review</h3>
 
         <form action ="/listings/<%= individualListings._id%>/review" method ="post" class="needs-validation" novalidate>
-               <!-- <div>
-                <label for ="rating" class="form-label">Rating</label>
-                <input type ="range" max = "5" min = "1" id ="rating" name ="review[rating]" class ="form-range">
-        </div>-->
+             
 
 
 
@@ -94,10 +91,15 @@
               </div>
         </div>
 <br> <br>
+
+<% if(currUser && review.author._id.equals(currUser._id)) {%>
                 <button class = "btn btn-outline-dark"> submit</button>
 
                 <br> <br>
+                <% } %>
         </form>
+
+       
         <%}%>
 
 
